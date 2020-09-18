@@ -1,0 +1,4 @@
+00:00:aa:bb:cc:dd,"{'LastIP': '192.168.4.1', 'Type': None}"
+b8:27:eb:9c:86:b7,"{'LastIP': '192.168.4.106', 'Type': None}"
+b8:27:eb:97:23:a2,"{'LastIP': '192.168.4.178', 'Type': None}"
+dc:a6:32:0d:13:44,"{'LastIP': '192.168.4.2', 'Type': 'DHCP'}"

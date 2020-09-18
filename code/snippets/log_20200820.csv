@@ -1,0 +1,1 @@
+2020-08-20 14:44:12.937436,1.1,b8:27:eb:9c:86:b7,"ethernet(dst='ff:ff:ff:ff:ff:ff',ethertype=2054,src='b8:27:eb:9c:86:b7'), arp(dst_ip='192.168.4.178',dst_mac='ff:ff:ff:ff:ff:ff',hlen=6,hwtype=1,opcode=1,plen=4,proto=2048,src_ip='192.168.4.1',src_mac='b8:27:eb:9c:86:b7')",MAC block for 60s

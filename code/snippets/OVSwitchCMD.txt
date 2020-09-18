@@ -1,0 +1,4 @@
+# Create OVSwitch Bridge using the 4 VLANS
+$ ovs-vsctl add-br br-ovs -- set bridge br-ovs protocols=OpenFlow13 -- set-controller br-ovs tcp:192.168.4.2:6633  -- set-fail-mode br-ovs standalone -- add-port br-ovs eth1.3 -- add-port br-ovs eth1.4 -- add-port br-ovs eth1.5 -- add-port br-ovs eth1.6 
+# Set Bridge IP address
+$ ip a a 192.168.4.1/24 dev br-ovs

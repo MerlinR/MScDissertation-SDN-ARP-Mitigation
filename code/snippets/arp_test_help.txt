@@ -1,0 +1,16 @@
+pi@phy-host-two:~ $ ./ARP_IDPS_test.py -h
+usage: ARP_IDPS_test.py [-h]
+                        [-p {1.1,1.2,1.3,2.1,2.2,2.3,2.4,2.5,rtt,cpu}]
+                        [-m {s,c,r}] [-t TIME] [-c COUNT] [-o OUTPUT]
+
+Simple tool to Test ARP IDPS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p {a1.1,a1.2,a1.3,a2.1,a2.2,a2.3,a2.4,a2.5,rtt,cpu}
+                        Spoof type by ID
+  -m {s,c,r}            Used for Reply attack testing, One device as (s)erver
+                        and other device as (c)lient, or (r)ply only
+  -t TIME               Time between tests
+  -c COUNT              Times to test
+  -o OUTPUT             Extension text to output file
