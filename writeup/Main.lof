@@ -1,0 +1,62 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Traditional Networks Compared to SDN \cite {SDNVTradImage2019}.}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SDN architecture \cite {rouse_2019}.}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Main components of an OpenFlow switch \cite {openflow}.}}{8}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ARP packet structure.}}{14}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Intrusion Detection \& Prevention System Diagram}}{15}{figure.2.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Distributed Responder ARP Architecture \cite {matties2017distributed}.}}{20}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Physically Tested setup \cite {masoud2015preventing}.}}{21}{figure.3.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces IDPS Flow-Chart}}{27}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Exp 2: Wireshark Proxy ARP}}{34}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces IDPS FlowRemoval Event Algorithm}}{36}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces IDPS PacketIn Event Algorithm}}{37}{figure.4.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Default Router internal configuration \cite {openwrtprojectRouter}.}}{38}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces SDN switch internal configuration}}{39}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Testbed Network Topology}}{43}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces SDN switch internal configuration}}{43}{figure.5.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Exp 1: Setup and Measurement Points}}{48}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Exp 1: A1.1: Wireshark PacketIn Event, Blocked ARP}}{51}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Exp 1: ARP A2.1 IDPS Detection Log}}{52}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Exp 1: A2.1: OvS OpenFlow Rules After Detection}}{52}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Exp 1: Summary of ARP Poisoned Detection Time (Millisecond)}}{52}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Exp 2: RTT Measurement Sampling Points}}{53}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Exp 2: All Four ARP Round-Trip-Time Bar Charts, Avaiable in Appendix Section \ref {app:Exp2}.}}{54}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Exp 2: Wireshark Adding New ARP Flow Rule}}{55}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Exp 2: Wireshark Verified ARP Flow Rule Exists}}{55}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Exp 2: Full Round-Trip-Time Comparison Line Chart}}{56}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Exp 3: CPU Load Charts, Avaiable in Appendix \ref {app:Exp3}.}}{58}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Exp 3: Combined CPU Load Stepped Area Chart}}{58}{figure.6.12}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Exp 1: ARP A1.1 IDPS Detection Log}}{89}{figure.A.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Exp 1: ARP A1.1 Detection Time Results}}{89}{figure.A.2}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Exp 1: ARP A1.2 IDPS Detection Log}}{89}{figure.A.3}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Exp 1: ARP A1.2 Detection Time Results}}{90}{figure.A.4}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Exp 1: ARP A1.3 IDPS Detection Log}}{90}{figure.A.5}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Exp 1: ARP A1.3 Detection Time Results}}{91}{figure.A.6}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Exp 1: ARP A2.1 IDPS Detection Log}}{91}{figure.A.7}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Exp 1: ARP A2.1 Detection Time Results}}{92}{figure.A.8}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Exp 1: ARP A2.2 IDPS Detection Log}}{92}{figure.A.9}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Exp 1: ARP A2.2 Detection Time Results}}{92}{figure.A.10}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Exp 1: ARP A2.3 IDPS Detection Log}}{93}{figure.A.11}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Exp 1: ARP A2.3 Detection Time Results}}{93}{figure.A.12}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Exp 1: ARP A2.4 IDPS Detection Log}}{93}{figure.A.13}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Exp 1: ARP A2.4 Detection Time Results}}{94}{figure.A.14}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Exp 1: ARP A2.5 IDPS Detection Log}}{94}{figure.A.15}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Exp 1: ARP A2.5 Detection Time Results}}{95}{figure.A.16}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Exp 2: Wireshark New and Existing ARP flow rule capture}}{95}{figure.A.17}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Exp 2: Traditional Network ARP Round-Trip-Time Bar Chart}}{96}{figure.A.18}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Exp 2: New ARP flow rule ARP Round-Trip-Time Bar Chart}}{96}{figure.A.19}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Exp 2: Existing ARP flow rule ARP Round-Trip-Time Bar Chart}}{97}{figure.A.20}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Exp 2: Arp Proxy Round-Trip-Time Bar Chart}}{97}{figure.A.21}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Exp 3: Idle CPU Usage Line Chart}}{98}{figure.A.22}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Exp 3: Ryu Controller Usual CPU Usage Line Chart}}{98}{figure.A.23}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Exp 3: ARP Proxy Replying CPU Usage Line Chart}}{99}{figure.A.24}%

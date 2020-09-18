@@ -1,0 +1,113 @@
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.6}{Abbreviations}{}% 2
+\BOOKMARK [0][-]{chapter*.7}{Ethics Statement}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Context}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Objectives}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Project Contribution}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Conventional Networks}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Problems with Conventional Networks}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Software-Defined Networks}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Programmable Networks}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{SDN Operation}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{Structure}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{Controllers}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{OpenFlow}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Origin}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Operation}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.3}{Flow Tables}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.4}{OpenFlow Channel}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.5}{Version Comparison}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Open vSwitch}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.5}{OpenWRT}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.6}{Ryu Controller}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.6.1}{Brief Controller Comparison}{section.2.6}% 26
+\BOOKMARK [1][-]{section.2.7}{Tools}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.8}{Address Resolution Protocol \(ARP\)}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.8.1}{ARP poisoning}{section.2.8}% 29
+\BOOKMARK [1][-]{section.2.9}{Intrusion Detection \046 Prevention System \(IDPS\)}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.9.1}{Detection Methods}{section.2.9}% 31
+\BOOKMARK [0][-]{chapter.3}{Literature Review}{}% 32
+\BOOKMARK [1][-]{section.3.1}{SDN security}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.1.1}{OpenFlow vulnerabilities}{section.3.1}% 34
+\BOOKMARK [2][-]{subsection.3.1.2}{IDPS using SDN: Defending against port-scanning and DoS}{section.3.1}% 35
+\BOOKMARK [1][-]{section.3.2}{Related Work: SDN based ARP poisoning detection and prevention}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.2.1}{Securing ARP in software defined networks}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.2}{Distributed responder ARP: Using SDN}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.3}{Preventing ARP poisoning attack utilizing SDN paradigm}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.4}{Mitigating ARP Spoofing Attacks in SDN}{section.3.2}% 40
+\BOOKMARK [1][-]{section.3.3}{ARP IDPS Summary and Comparison}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.1}{Comparison}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.2}{Summary}{section.3.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Design \046 Implementation}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Purpose}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Operation Overview}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.3}{Feature Requirements}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.3.1}{ARP Detection \046 Mitigation Criteria}{section.4.3}% 48
+\BOOKMARK [1][-]{section.4.4}{Methods}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.1}{SDN Structure}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Flow Rules}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.3}{MAC and IP Address Pairing}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.4}{ARP Packet Handling}{section.4.4}% 53
+\BOOKMARK [2][-]{subsection.4.4.5}{Proxy ARP Operation}{section.4.4}% 54
+\BOOKMARK [2][-]{subsection.4.4.6}{Logging}{section.4.4}% 55
+\BOOKMARK [1][-]{section.4.5}{File Structure}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.6}{Algorithm Overview}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{Testbed Implementation}{}% 58
+\BOOKMARK [1][-]{section.5.1}{Components}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.1.1}{TP-Link Archer AC1750 C7}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.1.2}{Pi4 SDN Controller}{section.5.1}% 61
+\BOOKMARK [2][-]{subsection.5.1.3}{Pi3 Hosts}{section.5.1}% 62
+\BOOKMARK [2][-]{subsection.5.1.4}{Network Time Protocol}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.1.5}{Network Summary}{section.5.1}% 64
+\BOOKMARK [2][-]{subsection.5.1.6}{Network Architecture}{section.5.1}% 65
+\BOOKMARK [1][-]{section.5.2}{Custom Tools}{chapter.5}% 66
+\BOOKMARK [2][-]{subsection.5.2.1}{IDPS Configuration Tool}{section.5.2}% 67
+\BOOKMARK [2][-]{subsection.5.2.2}{IDPS Testing Tool}{section.5.2}% 68
+\BOOKMARK [0][-]{chapter.6}{Experiments and Results}{}% 69
+\BOOKMARK [1][-]{section.6.1}{Experiment Limitations}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.2}{Experiment 1: Variety of Poisoning Detection and Mitigation}{chapter.6}% 71
+\BOOKMARK [2][-]{subsection.6.2.1}{Experiment Setup}{section.6.2}% 72
+\BOOKMARK [2][-]{subsection.6.2.2}{Measurements}{section.6.2}% 73
+\BOOKMARK [2][-]{subsection.6.2.3}{Poisoned ARP Request Detection \046 Mitigation}{section.6.2}% 74
+\BOOKMARK [2][-]{subsection.6.2.4}{Poisoned ARP Reply Detection \046 Mitigation}{section.6.2}% 75
+\BOOKMARK [2][-]{subsection.6.2.5}{Results}{section.6.2}% 76
+\BOOKMARK [1][-]{section.6.3}{Experiment 2: ARP RTT Time}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.3.1}{Experiment Setup}{section.6.3}% 78
+\BOOKMARK [2][-]{subsection.6.3.2}{Measurements}{section.6.3}% 79
+\BOOKMARK [2][-]{subsection.6.3.3}{Results \046 Analysis}{section.6.3}% 80
+\BOOKMARK [1][-]{section.6.4}{Experiment 3: CPU Overhead}{chapter.6}% 81
+\BOOKMARK [2][-]{subsection.6.4.1}{Experiment Setup}{section.6.4}% 82
+\BOOKMARK [2][-]{subsection.6.4.2}{Measurements}{section.6.4}% 83
+\BOOKMARK [2][-]{subsection.6.4.3}{Results \046 Analysis}{section.6.4}% 84
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 85
+\BOOKMARK [1][-]{section.7.1}{Limitations \046 Alterantives}{chapter.7}% 86
+\BOOKMARK [1][-]{section.7.2}{Future work}{chapter.7}% 87
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 88
+\BOOKMARK [1][-]{section.A.1}{OpenFlow}{appendix.A}% 89
+\BOOKMARK [2][-]{subsection.A.1.1}{OpenFlow 1.0 Matching table}{section.A.1}% 90
+\BOOKMARK [2][-]{subsection.A.1.2}{OpenFlow 1.3 Matching table}{section.A.1}% 91
+\BOOKMARK [1][-]{section.A.2}{Ryu IDPS Code and Snippets}{appendix.A}% 92
+\BOOKMARK [2][-]{subsection.A.2.1}{Ryu IDPS Code}{section.A.2}% 93
+\BOOKMARK [2][-]{subsection.A.2.2}{IDPS Tool Code}{section.A.2}% 94
+\BOOKMARK [2][-]{subsection.A.2.3}{MAC Knownlist Example}{section.A.2}% 95
+\BOOKMARK [2][-]{subsection.A.2.4}{DHCP whitelist Example}{section.A.2}% 96
+\BOOKMARK [2][-]{subsection.A.2.5}{IDPS log Example}{section.A.2}% 97
+\BOOKMARK [1][-]{section.A.3}{TP-Link Archer AC1750 C7 Setup}{appendix.A}% 98
+\BOOKMARK [2][-]{subsection.A.3.1}{Network IF config}{section.A.3}% 99
+\BOOKMARK [2][-]{subsection.A.3.2}{dnsmasq Configuration File}{section.A.3}% 100
+\BOOKMARK [2][-]{subsection.A.3.3}{Open vSwitch Configruation Setup}{section.A.3}% 101
+\BOOKMARK [2][-]{subsection.A.3.4}{TP-Link Archer dnsmasq/arp clear}{section.A.3}% 102
+\BOOKMARK [1][-]{section.A.4}{NTP Configs}{appendix.A}% 103
+\BOOKMARK [2][-]{subsection.A.4.1}{Client}{section.A.4}% 104
+\BOOKMARK [2][-]{subsection.A.4.2}{Server}{section.A.4}% 105
+\BOOKMARK [1][-]{section.A.5}{Testing Tools / Code}{appendix.A}% 106
+\BOOKMARK [2][-]{subsection.A.5.1}{IDPS Testing Tool Code}{section.A.5}% 107
+\BOOKMARK [2][-]{subsection.A.5.2}{IDPS \046 Testing tool log Timediff Comparison code}{section.A.5}% 108
+\BOOKMARK [2][-]{subsection.A.5.3}{IDPS Testing Tool Help Menu}{section.A.5}% 109
+\BOOKMARK [1][-]{section.A.6}{Full Testing Results}{appendix.A}% 110
+\BOOKMARK [2][-]{subsection.A.6.1}{Experiment 1}{section.A.6}% 111
+\BOOKMARK [2][-]{subsection.A.6.2}{Experiment 2}{section.A.6}% 112
+\BOOKMARK [2][-]{subsection.A.6.3}{Experiment 3}{section.A.6}% 113

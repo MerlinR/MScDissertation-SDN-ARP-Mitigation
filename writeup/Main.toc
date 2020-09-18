@@ -1,0 +1,139 @@
+\contentsline {chapter}{Abstract}{i}{chapter*.1}%
+\contentsline {chapter}{Abbreviations}{ix}{chapter*.6}%
+\contentsline {chapter}{Ethics Statement}{x}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Project Contribution}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Conventional Networks}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Problems with Conventional Networks}{4}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Software-Defined Networks}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Programmable Networks}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}SDN Operation}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Structure}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Controllers}{7}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}OpenFlow}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Origin}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Operation}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Flow Tables}{9}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}OpenFlow Channel}{10}{subsection.2.3.4}%
+\contentsline {subsubsection}{Controller to Switch}{10}{subsection.2.3.4}%
+\contentsline {subsubsection}{Asynchronous}{10}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Version Comparison}{10}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Open vSwitch}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}OpenWRT}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Ryu Controller}{12}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Brief Controller Comparison}{12}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.7}Tools}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Address Resolution Protocol \emph {(ARP)}}{14}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}ARP poisoning}{14}{subsection.2.8.1}%
+\contentsline {section}{\numberline {2.9}Intrusion Detection \& Prevention System \emph {(IDPS)}}{15}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Detection Methods}{16}{subsection.2.9.1}%
+\contentsline {chapter}{\numberline {3}Literature Review}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}SDN security}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}OpenFlow vulnerabilities}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}IDPS using SDN: Defending against port-scanning and DoS}{18}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Related Work: SDN based ARP poisoning detection and prevention}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Securing ARP in software defined networks}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Distributed responder ARP: Using SDN}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Preventing ARP poisoning attack utilizing SDN paradigm}{21}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Mitigating ARP Spoofing Attacks in SDN}{22}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}ARP IDPS Summary and Comparison}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Comparison}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Summary}{24}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Design \& Implementation}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Purpose}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Operation Overview}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Feature Requirements}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}ARP Detection \& Mitigation Criteria}{29}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Methods}{30}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}SDN Structure}{30}{subsection.4.4.1}%
+\contentsline {subsubsection}{Controller}{30}{subsection.4.4.1}%
+\contentsline {subsubsection}{SDN Switch}{30}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Flow Rules}{30}{subsection.4.4.2}%
+\contentsline {subsubsection}{Default Flow Rules}{30}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}MAC and IP Address Pairing}{31}{subsection.4.4.3}%
+\contentsline {subsubsection}{Storage Format}{31}{subsection.4.4.3}%
+\contentsline {subsubsection}{Static IP addresses}{31}{lstnumber.4.2.4}%
+\contentsline {subsubsection}{DHCP IP addresses}{32}{lstnumber.4.2.4}%
+\contentsline {subsection}{\numberline {4.4.4}ARP Packet Handling}{32}{subsection.4.4.4}%
+\contentsline {subsubsection}{Safe ARP Packet Handling}{32}{subsection.4.4.4}%
+\contentsline {subsubsection}{Poisoned ARP Packet Handling}{33}{lstnumber.4.3.2}%
+\contentsline {subsection}{\numberline {4.4.5}Proxy ARP Operation}{33}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Logging}{35}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}File Structure}{36}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Algorithm Overview}{36}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Testbed Implementation}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Components}{38}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}TP-Link Archer AC1750 C7}{38}{subsection.5.1.1}%
+\contentsline {subsubsection}{OpenWRT Configuration}{38}{subsection.5.1.1}%
+\contentsline {subsubsection}{SDN Configuration}{39}{figure.5.1}%
+\contentsline {subsubsection}{Open vSwitch}{39}{figure.5.2}%
+\contentsline {subsubsection}{dnsmasq DHCP server}{40}{lstnumber.5.3.19}%
+\contentsline {subsection}{\numberline {5.1.2}Pi4 SDN Controller}{41}{subsection.5.1.2}%
+\contentsline {subsubsection}{Ryu setup}{41}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Pi3 Hosts}{41}{subsection.5.1.3}%
+\contentsline {subsubsection}{ARP Poisoning Configuration}{41}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Network Time Protocol}{42}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Network Summary}{42}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Network Architecture}{42}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Custom Tools}{44}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}IDPS Configuration Tool}{44}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}IDPS Testing Tool}{44}{subsection.5.2.2}%
+\contentsline {subsubsection}{ARP Request \& Reply}{44}{subsection.5.2.2}%
+\contentsline {subsubsection}{CPU Testing}{45}{lstnumber.5.10.1}%
+\contentsline {subsubsection}{Log File's}{45}{lstnumber.5.10.1}%
+\contentsline {subsubsection}{Example Usage}{45}{lstnumber.5.11.1}%
+\contentsline {chapter}{\numberline {6}Experiments and Results}{46}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Experiment Limitations}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Experiment 1: Variety of Poisoning Detection and Mitigation}{47}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Experiment Setup}{47}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Measurements}{47}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Poisoned ARP Request Detection \& Mitigation}{48}{subsection.6.2.3}%
+\contentsline {subsubsection}{Test A1.1 - ARP IP spoof}{48}{subsection.6.2.3}%
+\contentsline {subsubsection}{Test A1.2 - ARP Unknown MAC IP spoof}{49}{lstnumber.6.2.2}%
+\contentsline {subsubsection}{Test A1.3 - ARP Source MAC Mismatch}{49}{lstnumber.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.4}Poisoned ARP Reply Detection \& Mitigation}{49}{subsection.6.2.4}%
+\contentsline {subsubsection}{Test A2.1 \& A2.2 - ARP IP spoof}{49}{subsection.6.2.4}%
+\contentsline {subsubsection}{Test A2.3 \& 2.4 - ARP MAC Mismatch}{50}{lstnumber.6.5.2}%
+\contentsline {subsubsection}{Test A2.5 - ARP Masked Destination}{50}{lstnumber.6.7.2}%
+\contentsline {subsection}{\numberline {6.2.5}Results}{50}{subsection.6.2.5}%
+\contentsline {section}{\numberline {6.3}Experiment 2: ARP RTT Time}{53}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Experiment Setup}{53}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Measurements}{53}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Results \& Analysis}{54}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Experiment 3: CPU Overhead}{57}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Experiment Setup}{57}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Measurements}{57}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Results \& Analysis}{57}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}Conclusion}{59}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Limitations \& Alterantives}{59}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future work}{60}{section.7.2}%
+\contentsline {chapter}{\numberline {A}Appendix}{65}{appendix.A}%
+\contentsline {section}{\numberline {A.1}OpenFlow}{65}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}OpenFlow 1.0 Matching table}{65}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}OpenFlow 1.3 Matching table}{65}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Ryu IDPS Code and Snippets}{67}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Ryu IDPS Code}{67}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}IDPS Tool Code}{77}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}MAC Knownlist Example}{78}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}DHCP whitelist Example}{78}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}IDPS log Example}{78}{subsection.A.2.5}%
+\contentsline {section}{\numberline {A.3}TP-Link Archer AC1750 C7 Setup}{79}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Network IF config}{79}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}dnsmasq Configuration File}{80}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Open vSwitch Configruation Setup}{80}{subsection.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}TP-Link Archer dnsmasq/arp clear}{80}{subsection.A.3.4}%
+\contentsline {section}{\numberline {A.4}NTP Configs}{81}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Client}{81}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Server}{81}{subsection.A.4.2}%
+\contentsline {section}{\numberline {A.5}Testing Tools / Code}{82}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}IDPS Testing Tool Code}{82}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}IDPS \& Testing tool log Timediff Comparison code}{87}{subsection.A.5.2}%
+\contentsline {subsection}{\numberline {A.5.3}IDPS Testing Tool Help Menu}{88}{subsection.A.5.3}%
+\contentsline {section}{\numberline {A.6}Full Testing Results}{89}{section.A.6}%
+\contentsline {subsection}{\numberline {A.6.1}Experiment 1}{89}{subsection.A.6.1}%
+\contentsline {subsection}{\numberline {A.6.2}Experiment 2}{95}{subsection.A.6.2}%
+\contentsline {subsection}{\numberline {A.6.3}Experiment 3}{98}{subsection.A.6.3}%

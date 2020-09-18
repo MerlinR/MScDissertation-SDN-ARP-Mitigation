@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Main.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: Bibliography.bib
+Warning--entry type for "SDNVTradImage2019" isn't style-file defined
+--line 548 of file Bibliography.bib
+Warning--entry type for "sdnwebsite2020" isn't style-file defined
+--line 558 of file Bibliography.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 55 entries,
+            4087 wiz_defined-function locations,
+            1117 strings with 16213 characters,
+and the built_in function-call counts, 31404 in all, are:
+= -- 2406
+> -- 680
+< -- 191
++ -- 361
+- -- 125
+* -- 1395
+:= -- 4902
+add.period$ -- 117
+call.type$ -- 55
+change.case$ -- 54
+chr.to.int$ -- 441
+cite$ -- 55
+duplicate$ -- 2393
+empty$ -- 2768
+format.name$ -- 151
+if$ -- 7210
+int.to.chr$ -- 0
+int.to.str$ -- 55
+missing$ -- 473
+newline$ -- 238
+num.names$ -- 47
+pop$ -- 1299
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2370
+stack$ -- 0
+substring$ -- 1080
+swap$ -- 1708
+text.length$ -- 44
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 55
+warning$ -- 0
+while$ -- 135
+width$ -- 57
+write$ -- 531
+(There were 2 warnings)
