@@ -10,10 +10,12 @@ The developed IDPS is a functioning hybrid between IDPS and ARP proxy, by perfor
 # The SDN
 The figure below is the internal network diagram for the SDN router after configuring Open vSwitch and OpenFlow on an OpenWRT TP-Link Router.
 ![Internal Router OvS diagram](paper/images/routerinsideSDN.png)
+![testbed](paper/images/testbedReal.png)
 
 # Results
 Testing is carried out on a physical testbed, using an off the shelf TP-Link router with OvS and OpenFlow using several Raspberry Pi's as hosts, resulting in real environment results. Three separate experiments were conducted on the IDPS using the physical testbed. The first experiment tested the detection and mitigation with 400 total packets sent with a variety of ARP poisoning attacks, with prevention rate being 100\% and detected on average within 58.1ms. The developed IDPS had minimal effect of regular ARP packets, only increasing by 1.2ms on average with minimal impact on the Controller resources; see the below figure.
 ![RTT Results](tests/RTT/ARP_RTT_full.png)
+![Detection Times](paper/images/AllARPDet.png)
 
 # The Paper
 You can view the paper within this github repo [here](paper/Main.pdf)
