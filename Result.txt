@@ -1,0 +1,58 @@
+Marker 1
+========
+Abstract. Well written and explains the project and its achievements very well. It would be good to write something about the project motivation. What is it important? 
+
+Introduction. Context and motivation are explained very well. Supported by references and specific and recent figures.
+
+Project objectives have been clearly defined and are ambitious. Success criteria are adequate. Could be a bit more specific. 
+
+Project contribution compared to the state-of-the-art solutions seems very significant.
+
+Review and Referencing of literature and other resources.
+Chapter 2 provides the necessary background on SDN, OpenFlow, IDS, ARP attacks and tools used. Sufficient detail has been provided, but without making it too lengthy. 
+
+Chapter 3 reviews the related works on SDN-based ARP poisoning detection. The most important and recent works have been reviewed and critically analysed. Tables 3.1 and 3.2 is very useful in comparing the existing approaches.  Perhaps they could be expanded to compare more features, evaluation methods, etc. The summary at the end of the chapter clarifies the contribution of the project compared to existing works.
+
+Design and Implementation of artefact, experiment or study.
+Chapter 4 describes the design and the implementation of the IDPS. Appropriate methodology has been used. Also, numerous tables, algorithms, and flow-charts make the content very engaging and explain the adopted approaches very well. The choices are generally justified very well. Perhaps more explanation could be provided on feature requirements and their justification. ARP detection and mitigation criteria and adequate and have also been used in other works. Sufficient technical detail has been provided on the design and implementation.
+
+Evaluation.
+Chapter 6 explains the experiments and the obtained results. Experiment designs and setups are appropriate and follow a rigorous methodology. A wide range of evaluation results have been presented, testing the detection accuracy, detection time, RTT, CPU overhead, etc. Detailed results as well as appropriate explanations and interpretations. On page 52, there is reference to Figure 6.6. (I presume it should be Figure 6.5). In the title of Section 6.3, RTT Time should be replaced by RTT, because RTT already include the word time.
+
+Written Communication and Referencing.
+The report is very well written. A few typos here and there, but nothing serious.  Formatting is fine. Structure is appropriate and intuitive. Excellent use of diagrams and tables. Citations and referencing are fine.
+
+Overall Remarks
+An excellent project. Very strong design and evaluation part. Well written.
+
+========================================
+
+Marker 2
+========
+Abstract, Introduction, Motivation, Aims and Objectives (PCYB)
+Good abstract, giving an overview of the context, methods, and results. 
+Comprehensive background section, defining the main concepts and making clear major questions such as why Ryu was chosen. ARP attacks could have been explained better.
+
+Review and Referencing of literature and other resources (PCYB)
+A comprehensive Lit Rev, delving into the details of the most related works, and providing an informative comparison, and an excellent summary at the end. 
+It would have been great if the criteria in Table 3.1 were categorised in some way, e.g. are all these positive features in all scenarios?
+
+Design and Implementation of artefact, experiment or study (PCYB)
+The detailed explanation in Section 4.2 is appreciated, but a higher-level description of the strategies would have been useful. 
+Systematic design, explicitly stating functional requirements. Great to see logging considered. 
+Good design for a testbed and well-explained.
+
+Evaluation (PCYB)
+Comprehensive set of tests and measurements. Analysis is sufficient, however an opportunity is missed to put the results in the context of existing work by e.g. comparison with related work, e.g. [9]-[12]. 
+Analysis, although extensive, can improve in terms of its logic. For instance, I do not see why fitting linear trendlines suits the analysis: is there an assumption that e.g. detection time changes linearly with time?
+
+Written Communication and Referencing (PCYB)
+Self-contained and employing cross-referencing, figures, tables, and code snippets effectively. 
+Excellent referencing. 
+Some awkward language, e.g. referring to other works as papers. \mu for micro is available to use in LaTeX instead of usec. 
+In figures like Figure 6.7, a distribution diagram would have been more informative instead of just plotting all the RTTs.
+
+Overall Remarks
+A systematic and substantial piece of work that with some additions (e.g. comparison with related work) would be of publishable quality. Deserves a distinction.
+
+Final Mark: 91%
